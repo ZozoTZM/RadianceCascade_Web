@@ -5,8 +5,18 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + TS</title>
+    <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+  </style>
   </head>
   <body>
-    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+    <label style="position: absolute; top: 10px; left: 10px; color: white; font-family: sans-serif;">
+  <input type="checkbox" id="probe-toggle" checked>
+  Show Probes
+</label>
   </body>
 </html>
